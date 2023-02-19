@@ -1,0 +1,15 @@
+out/
+bin/
+obj/
+objs/
+*.tmp.*
+tmp/
+test/
+
+*.exe
+*.obj
+*.o
+*.a
+*.so
+*.lib
+*.dll
