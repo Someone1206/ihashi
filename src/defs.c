@@ -1,4 +1,4 @@
-#include "privInc\idefs.h"
+#include "privInc/idefs.h"
 
 #if defined(_WIN32)
 
@@ -8,6 +8,6 @@ DWORD  ihashiConsoleState;
 
 #else
 
-char ihashiClrCode[20] = { "\\e[" };
+char ihashiClrCode[20] = {  0x1B, '[', '0', ';', 'x', 'x', ';' };
 
 #endif // _WIN32

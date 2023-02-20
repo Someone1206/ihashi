@@ -19,3 +19,19 @@ int IhashiInit()
     // nothing for linux ig...
 #endif // _WIN32
 }
+
+
+int IhashiResetClr()
+{
+#if defined(_WIN32)
+
+    SetConsoleTextAttribute(ihashiConsoleHandle, ihashiConsoleState);
+
+#else
+
+    fputs('\x1b[0m', stdout);
+
+#endif // _WIN32
+
+    return 0;
+}
