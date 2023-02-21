@@ -67,6 +67,19 @@ int IhashiSetClrMax(unsigned int clr);
 
 int IhashiResetClr();
 
+
+int IhashiPrintfClr(
+    unsigned int clr, const char* fmt, ...
+);
+
+int IhashiPrintfClrMax(
+    unsigned int clr, const char* fmt, ...
+);
+
+int IhashiPrintClr(unsigned int clr, const char* str);
+
+int IhashiPrintClrMax(unsigned int clr, const char* str);
+
 #if defined(IHASHI_PLATFORM_OPTIMISE)
 
 #if defined(_WIN32)
