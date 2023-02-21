@@ -16,6 +16,7 @@
 #define IFG_YELLOW              (IFG_RED | IFG_GREEN)
 
 #define IFG_WHITE               (IFG_RED | IFG_BLUE | IFG_GREEN)
+#define IFG_BLACK               (0x00000008)
 
 #define IFG_GREY                (0x00000400)
 #define IFG_GRAY                (IFG_GREY)
@@ -33,6 +34,7 @@
 #define IBG_YELLOW              (IBG_RED | IBG_GREEN)
 
 #define IBG_WHITE               (IBG_RED | IBG_BLUE | IBG_GREEN)
+#define IBG_BLACK               (0x00080000)
 
 #define IBG_GREY                (0x00002000)
 #define IBG_GRAY                (IBG_GREY)

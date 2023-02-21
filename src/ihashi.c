@@ -29,7 +29,11 @@ int IhashiResetClr()
 
 #else
 
-    fputs('\x1b[0m', stdout);
+    // fputs('\x1b[0m', stdout);
+    // why did this compile????
+
+    
+    fputs("\x1b[0m", stdout);
 
 #endif // _WIN32
 

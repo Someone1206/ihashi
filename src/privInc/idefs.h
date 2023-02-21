@@ -9,7 +9,9 @@ extern DWORD  ihashiConsoleState;
 
 #else
 
+#include <stdio.h>
 extern char ihashiClrCode[20];
+#define SET_CODE_AT(i, c) ihashiClrCode[i] = c
 
 #endif // _WIN32
 
