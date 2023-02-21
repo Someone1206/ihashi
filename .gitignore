@@ -4,10 +4,11 @@ obj/
 objs/
 *.tmp.*
 tmp/
-test/
+*.tmp/
 
 *.exe
 *.obj
+*.out
 *.o
 *.a
 *.so
