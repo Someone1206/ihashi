@@ -39,6 +39,20 @@
 #define IBG_GREY                (0x00002000)
 #define IBG_GRAY                (IBG_GREY)
 
+
+#define IFG_NORMAL              (0x00000000)
+#define IFG_BOLD                (0x01000000)
+#define IFG_FAINT               (0x02000000)
+#define IFG_ITALICS             (0x03000000)
+#define IFG_UNDERLINE           (0x04000000)
+#define IFG_UNDERLINED          (IFG_UNDERLINE)
+
+
+#define IFG_CLR_NORM            (0x40000000)
+#define IBG_CLR_NORM            (0x80000000)
+#define ICLR_NORMAL             (IFG_CLR_NORM | IBG_CLR_NORM)
+
+
 #if (defined(__APPLE__) && defined(__MACH__)) || defined(Macintosh) || defined(macintosh)
 #error "Ihashi hasn't yet been configured for mac os..."
 #endif
@@ -47,6 +61,9 @@
 int IhashiInit();
 
 int IhashiSetClr(unsigned int clr);
+
+// IHASHI_PLATFORM_MAX
+int IhashiSetClrMax(unsigned int clr);
 
 int IhashiResetClr();
 
@@ -65,14 +82,6 @@ extern char ihashiClrCode[20];
 #endif // _WIN32
 
 #endif // IHASHI_PLATFORM_OPTIMISE
-
-
-#if defined(IHASHI_PLATFORM_MAX)
-
-// use the maximum capabilities of the platform available
-
-#endif // IHASHI_PLATFORM_MAX
-
 
 
 #endif // !IHASHI_H

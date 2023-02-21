@@ -15,5 +15,7 @@ extern char ihashiClrCode[20];
 
 #endif // _WIN32
 
-
 #endif // IHASHI_DEFS
+
+int __ihashi_setclr_win(unsigned int clr);
+void __ihashi_setclr_linux(unsigned int clr);
