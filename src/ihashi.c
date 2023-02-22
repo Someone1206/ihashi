@@ -18,6 +18,7 @@ int IhashiInit()
 #else
     // nothing for linux ig...
 #endif // _WIN32
+    return 0;
 }
 
 
