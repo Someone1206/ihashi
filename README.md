@@ -1,24 +1,21 @@
 # ihashi
 :rainbow:Colour the console with the power of :zap:`C`:zap:!  
-Well, atleast it tries to...
 
 `ihashi` tries to be as minimal as possible while trying support multiple platforms.  
-
-
-Currently supported platforms:  
+Well, atleast it tries to...  
+**Currently supported platforms:**  
  - [x] Windows (tested on Win11)
  - [x] Linux - Bash (tested on Ubuntu WSL and Arch Linux)
-
-## Name
-`ihashi` struck my brain while thinking about the name for this library(the most difficult part of a project), will say it to mean colour.  
-`ihashi`(*noun*)[**ee-ha-shi**]: colour, color  
-**Note:** This isn't any word...
 
 ## The Constitution
 The constituion of this repository is the [CONTRIBUTING.md](./CONTRIBUTING.md).
 
+## Wiki!
+Take a look at the [ihashi Wiki](https://github.com/Someone1206/ihashi/wiki):eyes:
+
 ## For the Users
-Check out the documentation.
+Check out the [Getting Started](https://github.com/Someone1206/ihashi/wiki/gettingStarted)  
+And the [documentation](https://github.com/Someone1206/ihashi/wiki/Utilities)
 
 ## Goals
  * Efficiency
