@@ -1,6 +1,13 @@
 #if !defined(IHASHI_H)
 #define IHASHI_H
 
+#if defined(__cplusplus)
+
+extern "C" {
+
+#endif // __cplusplus
+
+
 #define IFG_INTENSE             (0x00000800)
 #define IBG_INTENSE             (0x00008000)
 
@@ -95,6 +102,14 @@ extern char ihashiClrCode[20];
 #endif // _WIN32
 
 #endif // IHASHI_PLATFORM_OPTIMISE
+
+
+#if defined(__cplusplus)
+
+}
+
+#endif // __cplusplus
+
 
 
 #endif // !IHASHI_H
